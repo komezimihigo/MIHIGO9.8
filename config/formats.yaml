@@ -1,0 +1,17 @@
+shorts:
+  width: 1080
+  height: 1920
+  aspect_ratio: "9:16"
+  codec: h264
+  audio_codec: aac
+  duration_seconds: 30
+  default_privacy: private
+
+standard:
+  width: 1920
+  height: 1080
+  aspect_ratio: "16:9"
+  codec: h264
+  audio_codec: aac
+  duration_seconds: 45
+  default_privacy: private

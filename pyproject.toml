@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mihigo-9-8"
+version = "0.1.0"
+description = "Autonomous video factory with rights, rendering, queue, and YouTube publishing workflow."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Mihigo" }]
+license = { text = "MIT" }
+keywords = ["video", "automation", "youtube", "rights", "ai"]
+dependencies = [
+  "PyYAML>=6.0",
+  "requests>=2.31.0",
+  "Flask>=3.0.0",
+  "Werkzeug>=3.0.0",
+  "boto3>=1.34.0",
+  "pytest>=8.0.0",
+  "python-dotenv>=1.0.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["orchestrator", "discovery", "rights", "media", "publishing", "storage", "workers", "scripts"]

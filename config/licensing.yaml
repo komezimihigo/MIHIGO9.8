@@ -1,0 +1,5 @@
+rights:
+  require_attribution: true
+  reject_unknown_license: true
+  reject_no_derivative: true
+  allow_commercial: false

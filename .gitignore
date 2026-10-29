@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+*.sqlite3
+*.db
+.coverage
+.pytest_cache/
+logs/*.log
+logs/
+media/
+temp/
+*.mp4
+*.mkv
+*.zip
+.idea/
+.DS_Store

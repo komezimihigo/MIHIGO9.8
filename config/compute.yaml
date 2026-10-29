@@ -1,0 +1,6 @@
+compute:
+  cpu_only: true
+  allow_gpu: false
+  ffmpeg_path: ffmpeg
+  ffprobe_path: ffprobe
+  temp_dir: temp

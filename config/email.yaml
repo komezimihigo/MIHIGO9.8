@@ -1,0 +1,7 @@
+email:
+  smtp_host: smtp.example.com
+  smtp_port: 587
+  use_tls: true
+  sender: no-reply@example.com
+  recipient: owner@example.com
+  enabled: false

@@ -1,0 +1,13 @@
+sources:
+  - name: user_upload
+    type: owned
+    enabled: true
+    priority: 100
+  - name: public_domain
+    type: public_domain
+    enabled: true
+    priority: 80
+  - name: licensed
+    type: licensed
+    enabled: true
+    priority: 70

@@ -1,0 +1,7 @@
+scheduler:
+  enabled: false
+  timezone: UTC
+  daily_cap: 20
+  max_jobs_per_run: 5
+  publish_window_start: "09:00"
+  publish_window_end: "17:00"

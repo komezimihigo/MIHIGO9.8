@@ -1,0 +1,49 @@
+# Example settings
+instance:
+  app_name: MIHIGO_9.8
+  env: development
+  timezone: UTC
+
+logging:
+  level: INFO
+  file: logs/mihigo.log
+
+scheduler:
+  enabled: false
+  timezone: UTC
+  daily_cap: 20
+  min_interval_minutes: 60
+  safe_window_minutes: 30
+
+channels:
+  default:
+    id: default_channel
+    name: default
+    enabled: false
+    mode: dry_run
+    daily_quota: 10
+    default_privacy: private
+
+rights:
+  require_provenance: true
+  reject_unknown_license: true
+  allow_free_first: true
+
+queue:
+  db_path: data/mihigo.sqlite3
+  max_retries: 5
+  dead_letter_limit: 10
+
+processing:
+  ffmpeg_path: ffmpeg
+  ffprobe_path: ffprobe
+  max_duration_seconds: 60
+  output_formats:
+    shorts:
+      width: 1080
+      height: 1920
+      aspect_ratio: "9:16"
+    standard:
+      width: 1920
+      height: 1080
+      aspect_ratio: "16:9"

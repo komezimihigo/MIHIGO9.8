@@ -1,0 +1,5 @@
+quality:
+  min_video_duration: 10
+  max_video_duration: 180
+  min_resolution: 720
+  allowed_extensions: [".mp4", ".mov", ".m4v", ".webm"]
